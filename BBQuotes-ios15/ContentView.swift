@@ -1,21 +1,21 @@
-//
-//  ContentView.swift
-//  BBQuotes-ios15
-//
-//  Created by Alin RADU on 04.02.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            QuoteView(show: "Breaking Bad")
+                .tabItem {
+                    Label("Braking Bad", systemImage: "tortoise")
+                }
+            Text("Better Call Saul View")
+                .tabItem {
+                    Label("Better Call Saul", systemImage: "briefcase")
+                }
         }
-        .padding()
+        .onAppear {
+            UITabBar.appearance().scrollEdgeAppearance = UITabBarAppearance()
+        }
+        .preferredColorScheme(/*@START_MENU_TOKEN@*/ .dark/*@END_MENU_TOKEN@*/)
     }
 }
 
