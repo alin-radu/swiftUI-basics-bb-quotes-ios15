@@ -18,6 +18,7 @@
 		18D5E8AA2B6FFBFD00FFF576 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5E8A92B6FFBFD00FFF576 /* Constants.swift */; };
 		18D5E8AC2B6FFFB100FFF576 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5E8AB2B6FFFB100FFF576 /* ViewModel.swift */; };
 		18D5E8AE2B7004C700FFF576 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5E8AD2B7004C700FFF576 /* QuoteView.swift */; };
+		18E4AF8A2B70539D0036696D /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E4AF892B70539D0036696D /* CharacterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		18D5E8A92B6FFBFD00FFF576 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		18D5E8AB2B6FFFB100FFF576 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		18D5E8AD2B7004C700FFF576 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		18E4AF892B70539D0036696D /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				18CE4A1A2B6FB84F0084A676 /* BBQuotes_ios15App.swift */,
 				18CE4A1C2B6FB84F0084A676 /* ContentView.swift */,
 				18D5E8AD2B7004C700FFF576 /* QuoteView.swift */,
+				18E4AF892B70539D0036696D /* CharacterView.swift */,
 				18D5E8AB2B6FFFB100FFF576 /* ViewModel.swift */,
 				18CE4A2E2B6FF4260084A676 /* FetchController.swift */,
 				18CE4A2A2B6FBFDE0084A676 /* Quote.swift */,
@@ -165,6 +168,7 @@
 				18D5E8AE2B7004C700FFF576 /* QuoteView.swift in Sources */,
 				18CE4A2F2B6FF4260084A676 /* FetchController.swift in Sources */,
 				18CE4A2D2B6FC0340084A676 /* Character.swift in Sources */,
+				18E4AF8A2B70539D0036696D /* CharacterView.swift in Sources */,
 				18D5E8AA2B6FFBFD00FFF576 /* Constants.swift in Sources */,
 				18D5E8AC2B6FFFB100FFF576 /* ViewModel.swift in Sources */,
 			);
@@ -303,6 +307,7 @@
 				DEVELOPMENT_TEAM = VAW596AAWY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -332,6 +337,7 @@
 				DEVELOPMENT_TEAM = VAW596AAWY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
